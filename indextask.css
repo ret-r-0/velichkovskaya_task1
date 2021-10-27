@@ -1,0 +1,292 @@
+@font-face{
+
+font-family: 'MyWebFont';
+
+url('Gilroy.woff') format('woff');
+
+}
+
+
+header {
+  background-color: black;
+}
+body {
+background-color: black;
+width: 100%;
+margin: 0;
+}
+
+#logo {
+width: 20%;
+height: auto;
+display: inline-block;
+position: relative;
+left: 1%;
+
+}
+#main_logo{
+  width: 100%;
+  height: 90px;
+  position: relative;
+  left: 0%;
+}
+#ukraine_logo {
+  width: 2%;
+  position: relative;
+  bottom: 39px;
+  left: 2%;
+  display: inline-block;
+}
+h2 {
+  width: 4%;
+      position: relative;
+      bottom: 40px;
+      left: 3%;
+      display: inline-block;
+      font-weight: normal;
+      font-family: "MyWebFont";
+color: white;
+}
+#menu {
+  position: relative;
+    left: 2%;
+    height: auto;
+    width: 93%;
+}
+nav {
+  display: inline-block;
+      position: relative;
+      bottom: 40px;
+      left: 4%;
+      width: 46%;
+}
+li {
+  display: inline-block;
+    position: relative;
+    left: -4%;
+    padding-right: 5%;
+}
+nav a {
+  text-decoration: none;
+      font-size: 146%;
+      /* font-family: 'Gilroy-Medium', sans-serif; */
+      font-family: "MyWebFont";
+      color: white;
+}
+#phone_logo{
+
+}
+#phone {
+  width: 9%;
+    position: relative;
+    bottom: 45px;
+    left: 1%;
+    display: inline-block;
+
+}
+#contact_logo{
+
+}
+#contact{
+  width: 9%;
+    position: relative;
+    bottom: 45px;
+    left: 2%;
+    display: inline-block;
+}
+button{
+  border: none;
+  background-color: inherit;
+  border: solid #AE3A08;
+  width: 105%;
+	transition: box-shadow 3s linear;
+}
+button:hover {
+  border: solid white;
+}
+#ua{
+  width: 2%;
+  position: relative;
+  bottom: 40px;
+  left: 4%;
+  display: inline-block;
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        color: white;
+}
+#contact_f{
+      /* font-family: 'Gilroy-Medium', sans-serif; */
+            font-family: "MyWebFont";
+      font-size: 15px;
+      color: white;
+}
+#phone_f{
+      /* font-family: 'Gilroy-Medium', sans-serif; */
+            font-family: "MyWebFont";
+      font-size: 15px;
+      color: white;
+}
+
+#first{
+  background-color: black;
+}
+#sushi1_div{
+  display: inline-block;
+      width: 33%;
+      position: relative;
+      left: 1%;
+      vertical-align: top;
+      height: auto;
+}
+#sushi1{
+width: 100%;
+height: 40vh;
+}
+
+#sushi2_div{
+  display: inline-block;
+      width: 62%;
+      position: relative;
+      left: 3%;
+      vertical-align: top;
+      height: auto;
+}
+#sushi2{
+width: 100%;
+height: 40vh;
+}
+#line_span{
+  background-color: #AE3A08;
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 2%;
+  width: 93.3%;
+  left: 1%;
+  /* font-family: 'Gilroy-Medium', sans-serif; */
+  font-family: "MyWebFont";
+  font-size: 21px;
+  color: white;
+  top:8px;
+}
+hr {
+  border: none;
+  border-top: 3px solid white;
+}
+
+#second{
+  position: relative;
+  top: 3vh;
+  left: 1%;
+  width: 97%;
+  background-color: black;
+}
+#sushi3_div{
+position: relative;
+display: inline-block;
+width: 62%;
+height: 75vh;
+vertical-align: top;
+}
+#sushi3{
+  width: 100%;
+  height: 100%;
+}
+aside{
+  position: relative;
+  display: inline-block;
+  width: 35.5%;
+  height: 75vh;
+  left: 2.5%;
+}
+#Tom{
+  width: 100%;
+  height: 100%;
+}
+
+#third{
+  position: relative;
+  top: 4vh;
+  left: 1%;
+  width: 97%;
+}
+
+#cat_div{
+  position: relative;
+  display: inline-block;
+  width: 32.5%;
+  vertical-align: top;
+}
+#cat{
+width: 100%;
+}
+
+#sushi6_div{
+  position: relative;
+  display: inline-block;
+  width: 32.5%;
+  left: 1%;
+  vertical-align: top;
+}
+#sushi6{
+width: 100%;
+}
+
+#sushi7_div{
+  position: relative;
+  display: inline-block;
+  width: 32.7%;
+  left: 2%;
+  vertical-align: top;
+}
+#sushi7{
+width: 100%;
+}
+
+#sushi8_span{
+  position: relative;
+  display: block;
+  top:1vh;
+}
+#sushi8{
+width: 100.5%;
+}
+p{
+/* font-family: 'Gilroy-Medium', sans-serif; */
+      font-family: "MyWebFont";
+font-size: 15px;
+color: white;}
+
+#bottom_hr{
+  position: relative;
+  top: 6vh;
+}
+footer{
+position: relative;
+top: 6vh;
+left: 1%;
+width: 97.5%;
+}
+
+footer div {
+position: relative;
+vertical-align: top;
+width: 21%;
+display: inline-block;
+}
+footer div p {
+text-align: center;
+font-size: 18px;
+
+}
+#social_media{
+left: 15%;
+}
+i {
+  color: white;
+}
+.fab {
+  font-size: 34px;
+  position: relative;
+  left: 25%;
+}

@@ -9,6 +9,7 @@ url('Gilroy.woff') format('woff');
 
 header {
   background-color: black;
+  height: 23vh;
 }
 body {
 background-color: black;
@@ -129,6 +130,7 @@ button:hover {
 
 #first{
   background-color: black;
+  height: 63vh;
 }
 #sushi1_div{
   display: inline-block;
@@ -140,7 +142,7 @@ button:hover {
 }
 #sushi1{
 width: 100%;
-height: 40vh;
+height: 44.5vh;
 }
 
 #sushi2_div{
@@ -153,7 +155,25 @@ height: 40vh;
 }
 #sushi2{
 width: 100%;
-height: 40vh;
+height: 44.5vh;
+}
+#transparent_1{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  bottom: 9vh;
+  height: 9vh;
+  background-color: black;
+  opacity: 0.5;
+
+}
+#transparent_text_1{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 195%;
+  bottom: 21vh;
+  display: inline-block;
 }
 #line_span{
   background-color: #AE3A08;
@@ -167,7 +187,7 @@ height: 40vh;
   font-family: "MyWebFont";
   font-size: 21px;
   color: white;
-  top:8px;
+  bottom:31%;
 }
 hr {
   border: none;
@@ -176,10 +196,29 @@ hr {
 
 #second{
   position: relative;
-  top: 3vh;
+  top: 1vh;
   left: 1%;
   width: 97%;
   background-color: black;
+}
+#transparent_2{
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+  width: 100%;
+  height: 14.5%;
+  bottom: 15%;
+}
+#transparent_text_2{
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  font-size: 197%;
+  width: 100%;
+  bottom: 33.3%;
+  z-index: 3;
 }
 #sushi3_div{
 position: relative;
@@ -246,8 +285,32 @@ width: 100%;
 #sushi8_span{
   position: relative;
   display: block;
-  top:1vh;
+  top:2vh;
 }
+#transparent_3{
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+  width: 25%;
+  left: 75.5%;
+  height: 18vh;
+  bottom: 23vh;
+}
+#transparent_text_3{
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  font-size: 197%;
+  width: 25%;
+  left: 51%;
+  bottom: 15.5vh;
+  z-index: 3;
+
+}
+
+
 #sushi8{
 width: 100.5%;
 }
@@ -257,6 +320,9 @@ p{
 font-size: 15px;
 color: white;}
 
+main {
+  height: 218vh;
+}
 #bottom_hr{
   position: relative;
   top: 6vh;
@@ -289,4 +355,1453 @@ i {
   font-size: 34px;
   position: relative;
   left: 25%;
+}
+
+@media only screen and (max-width: 1344px){
+
+  @font-face{
+
+  font-family: 'MyWebFont';
+
+  url('Gilroy.woff') format('woff');
+
+  }
+
+
+  header {
+    background-color: black;
+      height: 23vh;
+  }
+  body {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  }
+
+  #logo {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  left: 1%;
+
+  }
+  #main_logo{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    left: 0%;
+  }
+  #ukraine_logo {
+    width: 2%;
+    position: relative;
+    bottom: 39px;
+    left: 2%;
+    display: inline-block;
+  }
+  h2 {
+    width: 4%;
+        position: relative;
+        bottom: 40px;
+        left: 3%;
+        display: inline-block;
+        font-weight: normal;
+        font-family: "MyWebFont";
+  color: white;
+  }
+  #menu {
+    position: relative;
+      left: 2%;
+      height: auto;
+      width: 93%;
+  }
+  nav {
+    display: inline-block;
+        position: relative;
+        bottom: 40px;
+        left: 4%;
+        width: 46%;
+  }
+  li {
+    display: inline-block;
+      position: relative;
+      left: -4%;
+      padding-right: 5%;
+  }
+  nav a {
+    text-decoration: none;
+        font-size: 146%;
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+        color: white;
+  }
+  #phone_logo{
+
+  }
+  #phone {
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 1%;
+      display: inline-block;
+
+  }
+  #contact_logo{
+
+  }
+  #contact{
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 2%;
+      display: inline-block;
+  }
+  button{
+    border: none;
+    background-color: inherit;
+    border: solid #AE3A08;
+    width: 105%;
+  	transition: box-shadow 3s linear;
+  }
+  button:hover {
+    border: solid white;
+  }
+  #ua{
+    width: 2%;
+    position: relative;
+    bottom: 40px;
+    left: 4%;
+    display: inline-block;
+          /* font-family: 'Gilroy-Medium', sans-serif; */
+                font-family: "MyWebFont";
+          color: white;
+  }
+  #contact_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+  #phone_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+
+  #first{
+    background-color: black;
+    height: 63vh;
+  }
+  #sushi1_div{
+    display: inline-block;
+        width: 33%;
+        position: relative;
+        left: 1%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi1{
+  width: 100%;
+  height: 44.5vh;
+  }
+
+  #sushi2_div{
+    display: inline-block;
+        width: 62%;
+        position: relative;
+        left: 3%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi2{
+  width: 100%;
+  height: 44.5vh;
+  }
+  #transparent_1{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    bottom: 9vh;
+    height: 9vh;
+    background-color: black;
+    opacity: 0.5;
+
+  }
+  #transparent_text_1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 180%;
+    bottom: 21vh;
+    display: inline-block;
+  }
+  #line_span{
+    background-color: #AE3A08;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    width: 93.3%;
+    left: 1%;
+    /* font-family: 'Gilroy-Medium', sans-serif; */
+    font-family: "MyWebFont";
+    font-size: 21px;
+    color: white;
+    bottom:31%;
+  }
+  hr {
+    border: none;
+    border-top: 3px solid white;
+  }
+
+  #second{
+    position: relative;
+    top: 1vh;
+    left: 1%;
+    width: 97%;
+    background-color: black;
+  }
+  #transparent_2{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 100%;
+    height: 14.5%;
+    bottom: 15%;
+  }
+  #transparent_text_2{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 180%;
+    width: 100%;
+    bottom: 33.3%;
+    z-index: 3;
+  }
+  #sushi3_div{
+  position: relative;
+  display: inline-block;
+  width: 62%;
+  height: 75vh;
+  vertical-align: top;
+  }
+  #sushi3{
+    width: 100%;
+    height: 100%;
+  }
+  aside{
+    position: relative;
+    display: inline-block;
+    width: 35.5%;
+    height: 75vh;
+    left: 2.5%;
+  }
+  #Tom{
+    width: 100%;
+    height: 100%;
+  }
+
+  #third{
+    position: relative;
+    top: 4vh;
+    left: 1%;
+    width: 97%;
+  }
+
+  #cat_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    vertical-align: top;
+  }
+  #cat{
+  width: 100%;
+  }
+
+  #sushi6_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    left: 1%;
+    vertical-align: top;
+  }
+  #sushi6{
+  width: 100%;
+  }
+
+  #sushi7_div{
+    position: relative;
+    display: inline-block;
+    width: 32.7%;
+    left: 2%;
+    vertical-align: top;
+  }
+  #sushi7{
+  width: 100%;
+  }
+
+  #sushi8_span{
+    position: relative;
+    display: block;
+    top:2vh;
+  }
+  #transparent_3{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 25%;
+    left: 75.5%;
+    height: 18vh;
+    bottom: 23vh;
+  }
+  #transparent_text_3{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 197%;
+    width: 25%;
+    left: 51%;
+    bottom: 15.5vh;
+    z-index: 3;
+
+  }
+
+
+  #sushi8{
+  width: 100.5%;
+  }
+  p{
+  /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+  font-size: 15px;
+  color: white;}
+
+  main {
+    height: 218vh;
+  }
+  #bottom_hr{
+    position: relative;
+    top: 6vh;
+  }
+  footer{
+  position: relative;
+  top: 6vh;
+  left: 1%;
+  width: 97.5%;
+  }
+
+  footer div {
+  position: relative;
+  vertical-align: top;
+  width: 21%;
+  display: inline-block;
+  }
+  footer div p {
+  text-align: center;
+  font-size: 18px;
+
+  }
+  #social_media{
+  left: 15%;
+  }
+  i {
+    color: white;
+  }
+  .fab {
+    font-size: 34px;
+    position: relative;
+    left: 25%;
+  }
+
+}
+
+@media only screen and (max-width: 1261px){
+
+  @font-face{
+
+  font-family: 'MyWebFont';
+
+  url('Gilroy.woff') format('woff');
+
+  }
+
+
+  header {
+    background-color: black;
+      height: 23vh;
+  }
+  body {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  }
+
+  #logo {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  left: 1%;
+
+  }
+  #main_logo{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    left: 0%;
+  }
+  #ukraine_logo {
+    width: 2%;
+    position: relative;
+    bottom: 39px;
+    left: 2%;
+    display: inline-block;
+  }
+  h2 {
+    width: 4%;
+        position: relative;
+        bottom: 40px;
+        left: 3%;
+        display: inline-block;
+        font-weight: normal;
+        font-family: "MyWebFont";
+  color: white;
+  }
+  #menu {
+    position: relative;
+      left: 2%;
+      height: auto;
+      width: 93%;
+  }
+  nav {
+    display: inline-block;
+        position: relative;
+        bottom: 40px;
+        left: 4%;
+        width: 46%;
+  }
+  li {
+    display: inline-block;
+      position: relative;
+      left: -4%;
+      padding-right: 5%;
+  }
+  nav a {
+    text-decoration: none;
+        font-size: 146%;
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+        color: white;
+  }
+  #phone_logo{
+
+  }
+  #phone {
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 1%;
+      display: inline-block;
+
+  }
+  #contact_logo{
+
+  }
+  #contact{
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 2%;
+      display: inline-block;
+  }
+  button{
+    border: none;
+    background-color: inherit;
+    border: solid #AE3A08;
+    width: 105%;
+  	transition: box-shadow 3s linear;
+  }
+  button:hover {
+    border: solid white;
+  }
+  #ua{
+    width: 2%;
+    position: relative;
+    bottom: 40px;
+    left: 4%;
+    display: inline-block;
+          /* font-family: 'Gilroy-Medium', sans-serif; */
+                font-family: "MyWebFont";
+          color: white;
+  }
+  #contact_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+  #phone_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+
+  #first{
+    background-color: black;
+    height: 63vh;
+  }
+  #sushi1_div{
+    display: inline-block;
+        width: 33%;
+        position: relative;
+        left: 1%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi1{
+  width: 100%;
+  height: 44.5vh;
+  }
+
+  #sushi2_div{
+    display: inline-block;
+        width: 62%;
+        position: relative;
+        left: 3%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi2{
+  width: 100%;
+  height: 44.5vh;
+  }
+  #transparent_1{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    bottom: 9vh;
+    height: 9vh;
+    background-color: black;
+    opacity: 0.5;
+
+  }
+  #transparent_text_1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 170%;
+    bottom: 21vh;
+    display: inline-block;
+  }
+  #line_span{
+    background-color: #AE3A08;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    width: 93.3%;
+    left: 1%;
+    /* font-family: 'Gilroy-Medium', sans-serif; */
+    font-family: "MyWebFont";
+    font-size: 21px;
+    color: white;
+    bottom:31%;
+  }
+  hr {
+    border: none;
+    border-top: 3px solid white;
+  }
+
+  #second{
+    position: relative;
+    top: 1vh;
+    left: 1%;
+    width: 97%;
+    background-color: black;
+  }
+  #transparent_2{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 100%;
+    height: 14.5%;
+    bottom: 15%;
+  }
+  #transparent_text_2{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 180%;
+    width: 100%;
+    bottom: 33.3%;
+    z-index: 3;
+  }
+  #sushi3_div{
+  position: relative;
+  display: inline-block;
+  width: 62%;
+  height: 75vh;
+  vertical-align: top;
+  }
+  #sushi3{
+    width: 100%;
+    height: 100%;
+  }
+  aside{
+    position: relative;
+    display: inline-block;
+    width: 35.5%;
+    height: 75vh;
+    left: 2.5%;
+  }
+  #Tom{
+    width: 100%;
+    height: 100%;
+  }
+
+  #third{
+    position: relative;
+    top: 4vh;
+    left: 1%;
+    width: 97%;
+  }
+
+  #cat_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    vertical-align: top;
+  }
+  #cat{
+  width: 100%;
+  }
+
+  #sushi6_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    left: 1%;
+    vertical-align: top;
+  }
+  #sushi6{
+  width: 100%;
+  }
+
+  #sushi7_div{
+    position: relative;
+    display: inline-block;
+    width: 32.7%;
+    left: 2%;
+    vertical-align: top;
+  }
+  #sushi7{
+  width: 100%;
+  }
+
+  #sushi8_span{
+    position: relative;
+    display: block;
+    top:2vh;
+  }
+  #transparent_3{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 25%;
+    left: 75.5%;
+    height: 18vh;
+    bottom: 23vh;
+  }
+  #transparent_text_3{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 185%;
+    width: 25%;
+    left: 51%;
+    bottom: 15.5vh;
+    z-index: 3;
+
+  }
+
+
+  #sushi8{
+  width: 100.5%;
+  }
+  p{
+  /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+  font-size: 15px;
+  color: white;}
+
+  main {
+    height: 218vh;
+  }
+  #bottom_hr{
+    position: relative;
+    top: 6vh;
+  }
+  footer{
+  position: relative;
+  top: 6vh;
+  left: 1%;
+  width: 97.5%;
+  }
+
+  footer div {
+  position: relative;
+  vertical-align: top;
+  width: 21%;
+  display: inline-block;
+  }
+  footer div p {
+  text-align: center;
+  font-size: 18px;
+
+  }
+  #social_media{
+  left: 15%;
+  }
+  i {
+    color: white;
+  }
+  .fab {
+    font-size: 34px;
+    position: relative;
+    left: 25%;
+  }
+
+}
+@media only screen and (max-width: 1261px){
+
+  @font-face{
+
+  font-family: 'MyWebFont';
+
+  url('Gilroy.woff') format('woff');
+
+  }
+
+
+  header {
+    background-color: black;
+  }
+  body {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  }
+
+  #logo {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  left: 1%;
+
+  }
+  #main_logo{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    left: 0%;
+  }
+  #ukraine_logo {
+    width: 2%;
+    position: relative;
+    bottom: 39px;
+    left: 2%;
+    display: inline-block;
+  }
+  h2 {
+    width: 4%;
+        position: relative;
+        bottom: 40px;
+        left: 3%;
+        display: inline-block;
+        font-weight: normal;
+        font-family: "MyWebFont";
+  color: white;
+  }
+  #menu {
+    position: relative;
+      left: 2%;
+      height: auto;
+      width: 93%;
+  }
+  nav {
+    display: inline-block;
+        position: relative;
+        bottom: 40px;
+        left: 4%;
+        width: 46%;
+  }
+  li {
+    display: inline-block;
+      position: relative;
+      left: -4%;
+      padding-right: 5%;
+  }
+  nav a {
+    text-decoration: none;
+        font-size: 146%;
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+        color: white;
+  }
+  #phone_logo{
+
+  }
+  #phone {
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 1%;
+      display: inline-block;
+
+  }
+  #contact_logo{
+
+  }
+  #contact{
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 2%;
+      display: inline-block;
+  }
+  button{
+    border: none;
+    background-color: inherit;
+    border: solid #AE3A08;
+    width: 105%;
+  	transition: box-shadow 3s linear;
+  }
+  button:hover {
+    border: solid white;
+  }
+  #ua{
+    width: 2%;
+    position: relative;
+    bottom: 40px;
+    left: 4%;
+    display: inline-block;
+          /* font-family: 'Gilroy-Medium', sans-serif; */
+                font-family: "MyWebFont";
+          color: white;
+  }
+  #contact_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+  #phone_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+
+  #first{
+    background-color: black;
+    height: 63vh;
+  }
+  #sushi1_div{
+    display: inline-block;
+        width: 33%;
+        position: relative;
+        left: 1%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi1{
+  width: 100%;
+  height: 44.5vh;
+  }
+
+  #sushi2_div{
+    display: inline-block;
+        width: 62%;
+        position: relative;
+        left: 3%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi2{
+  width: 100%;
+  height: 44.5vh;
+  }
+  #transparent_1{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    bottom: 9vh;
+    height: 9vh;
+    background-color: black;
+    opacity: 0.5;
+
+  }
+  #transparent_text_1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 170%;
+    bottom: 21vh;
+    display: inline-block;
+  }
+  #line_span{
+    background-color: #AE3A08;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    width: 93.3%;
+    left: 1%;
+    /* font-family: 'Gilroy-Medium', sans-serif; */
+    font-family: "MyWebFont";
+    font-size: 21px;
+    color: white;
+    bottom:31%;
+  }
+  hr {
+    border: none;
+    border-top: 3px solid white;
+  }
+
+  #second{
+    position: relative;
+    top: 1vh;
+    left: 1%;
+    width: 97%;
+    background-color: black;
+  }
+  #transparent_2{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 100%;
+    height: 14.5%;
+    bottom: 15%;
+  }
+  #transparent_text_2{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 180%;
+    width: 100%;
+    bottom: 33.3%;
+    z-index: 3;
+  }
+  #sushi3_div{
+  position: relative;
+  display: inline-block;
+  width: 62%;
+  height: 75vh;
+  vertical-align: top;
+  }
+  #sushi3{
+    width: 100%;
+    height: 100%;
+  }
+  aside{
+    position: relative;
+    display: inline-block;
+    width: 35.5%;
+    height: 75vh;
+    left: 2.5%;
+  }
+  #Tom{
+    width: 100%;
+    height: 100%;
+  }
+
+  #third{
+    position: relative;
+    top: 4vh;
+    left: 1%;
+    width: 97%;
+  }
+
+  #cat_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    vertical-align: top;
+  }
+  #cat{
+  width: 100%;
+  }
+
+  #sushi6_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    left: 1%;
+    vertical-align: top;
+  }
+  #sushi6{
+  width: 100%;
+  }
+
+  #sushi7_div{
+    position: relative;
+    display: inline-block;
+    width: 32.7%;
+    left: 2%;
+    vertical-align: top;
+  }
+  #sushi7{
+  width: 100%;
+  }
+
+  #sushi8_span{
+    position: relative;
+    display: block;
+    top:2vh;
+  }
+  #transparent_3{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 25%;
+    left: 75.5%;
+    height: 18vh;
+    bottom: 23vh;
+  }
+  #transparent_text_3{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 185%;
+    width: 25%;
+    left: 51%;
+    bottom: 15.5vh;
+    z-index: 3;
+
+  }
+
+
+  #sushi8{
+  width: 100.5%;
+  }
+  p{
+  /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+  font-size: 15px;
+  color: white;}
+
+  main {
+    height: 218vh;
+  }
+  #bottom_hr{
+    position: relative;
+    top: 6vh;
+  }
+  footer{
+  position: relative;
+  top: 6vh;
+  left: 1%;
+  width: 97.5%;
+  }
+
+  footer div {
+  position: relative;
+  vertical-align: top;
+  width: 21%;
+  display: inline-block;
+  }
+  footer div p {
+  text-align: center;
+  font-size: 18px;
+
+  }
+  #social_media{
+  left: 15%;
+  }
+  i {
+    color: white;
+  }
+  .fab {
+    font-size: 34px;
+    position: relative;
+    left: 25%;
+  }
+
+}
+
+@media only screen and (max-width: 1138px){
+
+  @font-face{
+
+  font-family: 'MyWebFont';
+
+  url('Gilroy.woff') format('woff');
+
+  }
+
+
+  header {
+    background-color: black;
+  }
+  body {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  }
+
+  #logo {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  left: 1%;
+
+  }
+  #main_logo{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    left: 0%;
+  }
+  #ukraine_logo {
+    width: 2%;
+    position: relative;
+    bottom: 39px;
+    left: 2%;
+    display: inline-block;
+  }
+  h2 {
+    width: 4%;
+        position: relative;
+        bottom: 40px;
+        left: 3%;
+        display: inline-block;
+        font-weight: normal;
+        font-family: "MyWebFont";
+  color: white;
+  }
+  #menu {
+    position: relative;
+      left: 2%;
+      height: auto;
+      width: 93%;
+  }
+  nav {
+    display: inline-block;
+        position: relative;
+        bottom: 40px;
+        left: 4%;
+        width: 46%;
+  }
+  li {
+    display: inline-block;
+      position: relative;
+      left: -4%;
+      padding-right: 5%;
+  }
+  nav a {
+    text-decoration: none;
+        font-size: 146%;
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+        color: white;
+  }
+  #phone_logo{
+
+  }
+  #phone {
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 1%;
+      display: inline-block;
+
+  }
+  #contact_logo{
+
+  }
+  #contact{
+    width: 9%;
+      position: relative;
+      bottom: 45px;
+      left: 2%;
+      display: inline-block;
+  }
+  button{
+    border: none;
+    background-color: inherit;
+    border: solid #AE3A08;
+    width: 105%;
+  	transition: box-shadow 3s linear;
+  }
+  button:hover {
+    border: solid white;
+  }
+  #ua{
+    width: 2%;
+    position: relative;
+    bottom: 40px;
+    left: 4%;
+    display: inline-block;
+          /* font-family: 'Gilroy-Medium', sans-serif; */
+                font-family: "MyWebFont";
+          color: white;
+  }
+  #contact_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+  #phone_f{
+        /* font-family: 'Gilroy-Medium', sans-serif; */
+              font-family: "MyWebFont";
+        font-size: 15px;
+        color: white;
+  }
+
+  #first{
+    background-color: black;
+    height: 63vh;
+  }
+  #sushi1_div{
+    display: inline-block;
+        width: 33%;
+        position: relative;
+        left: 1%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi1{
+  width: 100%;
+  height: 44.5vh;
+  }
+
+  #sushi2_div{
+    display: inline-block;
+        width: 62%;
+        position: relative;
+        left: 3%;
+        vertical-align: top;
+        height: auto;
+  }
+  #sushi2{
+  width: 100%;
+  height: 44.5vh;
+  }
+  #transparent_1{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    bottom: 9vh;
+    height: 9vh;
+    background-color: black;
+    opacity: 0.5;
+
+  }
+  #transparent_text_1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 160%;
+    bottom: 21vh;
+    display: inline-block;
+  }
+  #line_span{
+    background-color: #AE3A08;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    width: 93.3%;
+    left: 1%;
+    /* font-family: 'Gilroy-Medium', sans-serif; */
+    font-family: "MyWebFont";
+    font-size: 21px;
+    color: white;
+    bottom:31%;
+  }
+  hr {
+    border: none;
+    border-top: 3px solid white;
+  }
+
+  #second{
+    position: relative;
+    top: 1vh;
+    left: 1%;
+    width: 97%;
+    background-color: black;
+  }
+  #transparent_2{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 100%;
+    height: 14.5%;
+    bottom: 15%;
+  }
+  #transparent_text_2{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 180%;
+    width: 100%;
+    bottom: 33.3%;
+    z-index: 3;
+  }
+  #sushi3_div{
+  position: relative;
+  display: inline-block;
+  width: 62%;
+  height: 75vh;
+  vertical-align: top;
+  }
+  #sushi3{
+    width: 100%;
+    height: 100%;
+  }
+  aside{
+    position: relative;
+    display: inline-block;
+    width: 35.5%;
+    height: 75vh;
+    left: 2.5%;
+  }
+  #Tom{
+    width: 100%;
+    height: 100%;
+  }
+
+  #third{
+    position: relative;
+    top: 4vh;
+    left: 1%;
+    width: 97%;
+  }
+
+  #cat_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    vertical-align: top;
+  }
+  #cat{
+  width: 100%;
+  }
+
+  #sushi6_div{
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    left: 1%;
+    vertical-align: top;
+  }
+  #sushi6{
+  width: 100%;
+  }
+
+  #sushi7_div{
+    position: relative;
+    display: inline-block;
+    width: 32.7%;
+    left: 2%;
+    vertical-align: top;
+  }
+  #sushi7{
+  width: 100%;
+  }
+
+  #sushi8_span{
+    position: relative;
+    display: block;
+    top:2vh;
+  }
+  #transparent_3{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    width: 25%;
+    left: 75.5%;
+    height: 18vh;
+    bottom: 23vh;
+  }
+  #transparent_text_3{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 173%;
+    width: 25%;
+    left: 51%;
+    bottom: 15.5vh;
+    z-index: 3;
+
+  }
+
+
+  #sushi8{
+  width: 100.5%;
+  }
+  p{
+  /* font-family: 'Gilroy-Medium', sans-serif; */
+        font-family: "MyWebFont";
+  font-size: 15px;
+  color: white;}
+
+  main {
+    height: 218vh;
+  }
+  #bottom_hr{
+    position: relative;
+    top: 6vh;
+  }
+  footer{
+  position: relative;
+  top: 6vh;
+  left: 1%;
+  width: 97.5%;
+  }
+
+  footer div {
+  position: relative;
+  vertical-align: top;
+  width: 21%;
+  display: inline-block;
+  }
+  footer div p {
+  text-align: center;
+  font-size: 18px;
+
+  }
+  #social_media{
+  left: 15%;
+  }
+  i {
+    color: white;
+  }
+  .fab {
+    font-size: 34px;
+    position: relative;
+    left: 25%;
+  }
+
 }
